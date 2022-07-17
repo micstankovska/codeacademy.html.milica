@@ -1,0 +1,23 @@
+header {
+  text-decoration: double;
+  border: 5px;
+  border-style: solid;
+  border-color: black;
+  background-color: grey;
+  color: maroon;
+  font-style: italic;
+}
+table {
+  color: maroon;
+  text-size-adjust: 80px;
+  border: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: antiquewhite;
+}
+body {
+  text-align: center;
+  background-color: rgb(58, 117, 124);
+  font-style: oblique;
+}
