@@ -1,0 +1,38 @@
+.elements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#firstbox {
+  background-color: rgb(66, 194, 194);
+  width: 250px;
+  height: 250px;
+}
+
+#secondbox {
+  background-color: rgb(29, 54, 17);
+  width: 250px;
+  height: 250px;
+}
+
+#thirdbox {
+  background-color: rgb(151, 52, 52);
+  width: 250px;
+  height: 250px;
+  transition: 2s;
+}
+#firstbox:hover,
+#thirdbox:hover {
+  width: 500px;
+}
+/* on mouse hover rotate 90 for 2 seconds */
+#secondbox:hover {
+  transform: rotate(90deg);
+}
+.cutText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 8; /* number of lines to show in my polygon*/
+  -webkit-box-orient: vertical;
+}
