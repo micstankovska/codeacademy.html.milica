@@ -1,0 +1,32 @@
+html {
+  background-color: black;
+  box-sizing: border-box;
+  border-style: groove;
+  border-width: 1cm;
+  border-color: plum;
+  background-image: url(./google-search-dark-theme-web-cover5.webp);
+  background-size: 10cm;
+  background-repeat: no-repeat;
+}
+head {
+  box-sizing: border-box;
+  border: 5mm;
+  font-style: normal;
+  text-align: center;
+  font-family: serif;
+  text-decoration: underline;
+}
+header {
+  color: aquamarine;
+}
+body {
+  font-size: 100%;
+  font-style: italic;
+  text-align: center;
+  text-justify: newspaper;
+  margin-left: 5cm;
+  margin-right: 5cm;
+  margin-bottom: 5cm;
+  font-family: serif;
+  color: rgb(201, 49, 221);
+}
