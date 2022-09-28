@@ -1,0 +1,83 @@
+html {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  background-color: rgb(255, 254, 254);
+  font-family: sans-serif;
+  box-sizing: border sizing;
+}
+main {
+  padding-left: 2cm;
+  padding-right: 2cm;
+}
+body {
+  background-color: rgb(196, 192, 192);
+  display: flex;
+}
+
+#groups {
+  display: flex;
+  flex-direction: column;
+  background-color: #beb9b9;
+  width: 5cm;
+  height: 100%;
+  text-align: center;
+  font-size: 100%;
+  padding: 5%;
+}
+#friends-stories {
+  display: flex;
+  background-color: #f1f1f1;
+  font-size: 0, 5cm;
+}
+
+#friends-stories > div > div > img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid blue;
+}
+
+.date {
+  padding: 10px;
+  background-color: rgb(68, 136, 199);
+  margin: 0%;
+  border-radius: 10%;
+}
+.date.month.date-day {
+  margin: 0%;
+  display: flex;
+}
+.article-img {
+  width: 200px;
+  height: 200px;
+  background: blue;
+}
+
+.article-details {
+  width: 300px;
+}
+.article-title {
+  text-decoration: solid;
+}
+.article-header {
+  margin: 0%;
+  display: flex;
+  border-radius: 5%;
+}
+.article-description {
+  margin: 0%;
+
+  padding: 0, 5cm;
+}
+#userdetails {
+  background-color: blue;
+}
+#comments > div > img {
+  width: 40%;
+  height: 40%;
+}
+article {
+  display: flex;
+  background-color: white;
+}
